@@ -30,15 +30,11 @@ fi=1e-9
 ff=10**(-6.5)
 f0=1e-9
 
-Mstar=1e8*MS
-zstar=2
-z1=0.2
-z2=5
 
 Mc1=1e6*MS;Mc2=1e10*MS
 Mstar=1e8*MS
 zstar=2
-z1=0.2
+z1=0.02
 z2=5
 eta1=0.08
 eta2=0.25
