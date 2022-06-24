@@ -6,7 +6,7 @@ from scipy import integrate
 from numpy import log10 as lg
 from compute_hc import dEdfrQf
 
-sizef=20;sizem=80;sizez=80;
+sizef=50;sizem=60;sizez=60;
 
 # FRACTOL=1e-4
 
@@ -70,7 +70,7 @@ eta=q/(1+q)**2
 
 Mstar=1e8*MS
 zstar=2
-z1=0.2
+z1=0.02
 z2=5
 
 farr=np.logspace(lg(fi),lg(ff),sizef)
